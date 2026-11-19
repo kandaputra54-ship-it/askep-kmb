@@ -110,19 +110,18 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-slate-800 font-sans">
-      <div className="bg-emerald-700 text-emerald-50 text-xs py-2 px-6 text-center font-medium">
-        Standar Dokumentasi Klinis Keperawatan Medikal Bedah Dewasa • Berbasis
-        SDKI, SLKI & SIKI
+      <div className="bg-emerald-700 text-emerald-50 text-xs py-2 px-6 text-center font-medium tracking-wide">
+        Format Baku Pengkajian & Dokumentasi Asuhan Keperawatan Medikal Bedah
+        (B1–B6)
       </div>
 
-            <header className="bg-white sticky top-0 z-50 border-b border-slate-100">
+      <header className="bg-white sticky top-0 z-50 border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-          
           {/* Logo & Teks */}
           <a href="#" className="flex items-center space-x-3 group">
-            <img 
-              src="/android-chrome-192x192.png" 
-              alt="Logo AskepKMB" 
+            <img
+              src="/android-chrome-192x192.png"
+              alt="Logo AskepKMB"
               className="w-10 h-10 object-contain"
             />
             <span className="text-xl font-bold tracking-tight text-slate-900 group-hover:text-emerald-700 transition">
@@ -487,11 +486,14 @@ export default function Home() {
 
       <footer className="bg-emerald-50/70 border-t border-emerald-100 text-slate-600 text-xs mt-10">
         <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
-                    <div className="space-y-3">
-            <a href="#" className="flex items-center space-x-2 text-lg font-bold text-slate-900 w-fit">
-              <img 
-                src="/android-chrome-192x192.png" 
-                alt="Logo AskepKMB" 
+          <div className="space-y-3">
+            <a
+              href="#"
+              className="flex items-center space-x-2 text-lg font-bold text-slate-900 w-fit"
+            >
+              <img
+                src="/android-chrome-192x192.png"
+                alt="Logo AskepKMB"
                 className="w-6 h-6 object-contain"
               />
               <span>
